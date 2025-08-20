@@ -1,0 +1,19 @@
+{
+    "servers": {
+        "AzureMCPServer": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@azure/mcp@latest",
+                "server",
+                "start"
+            ]
+        },
+
+        "DevBox": {
+            "command": "npx",
+            "args": ["-y", "@microsoft/devbox-mcp@latest"]
+        }
+    
+    }
+}
