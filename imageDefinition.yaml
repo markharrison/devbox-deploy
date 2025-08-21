@@ -7,10 +7,6 @@ tasks:
     parameters:
       package: Microsoft.VisualStudioCode.Insiders
   - name: winget
-    description: Install Docker Desktop for containerization
-    parameters:
-      package: Docker.DockerDesktop
-  - name: winget
     description: Install Azure Developer CLI for cloud development
     parameters:
       package: Microsoft.Azd
