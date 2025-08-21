@@ -1,3 +1,4 @@
+
 $schema: "1.0"
 name: "csharp-developers"
 image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
@@ -10,3 +11,4 @@ tasks:
     description: Install Azure Developer CLI for cloud development
     parameters:
       package: Microsoft.Azd
+
