@@ -1,4 +1,14 @@
-id: csharp-developers
-version: "1.0.0"
+$schema: "1.0"
 name: "C# Developer Environment"
-templatePath: ./csharp-developers.yaml
+image: microsoftvisualstudio_visualstudioplustools_vs-2022-ent-general-win11-m365-gen2
+description: "This definition is for the c# engineering environment"
+
+tasks:
+  - name: ~/winget
+    description: Install Visual Studio Code Insiders for latest features
+    parameters:
+      package: Microsoft.VisualStudioCode.Insiders
+  - name: ~/winget
+    description: Install Azure Developer CLI for cloud development
+    parameters:
+      package: Microsoft.Azd
