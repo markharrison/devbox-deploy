@@ -2,4 +2,3 @@ id: csharp-developers
 version: "1.0.0"
 name: "C# Developer Environment"
 templatePath: ./csharp-developers.yaml
-
